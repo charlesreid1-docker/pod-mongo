@@ -5,8 +5,8 @@ for running a MongoDB database and web frontend.
 
 The services are:
 
-* MongoDB
-* Mongo Express
+* [MongoDB](Service_mongodb.md)
+* [Mongo Express](Service_mongoexpress.md)
 
 ## Links
 
@@ -36,7 +36,7 @@ used by this docker pod:
 
 ## Backups
 
-Backup utilities (if there are any) are in the `utils-mongodb/` directory.
+Backup utilities are in the `utils-mongodb/` directory.
 
 ## Ports
 
