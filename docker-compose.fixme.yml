@@ -1,0 +1,23 @@
+version: "3.1"
+services:
+
+  stormy_mongodb:
+    build: d-mongodb
+    restart: always
+    ports:
+      - "27017:27017"
+    volumes:
+      - "/opt/mongodb:/data"
+
+  stormy_mongoexpress:
+    image: mongo-express
+    restart: always
+    ports:
+      - "8081:8081"
+    links:
+      - stormy_mongodb:mongo
+    environment:
+      - ME_CONFIG_OPTIONS_EDITORTHEME=ambiance
+      - ME_CONFIG_BASICAUTH_USERNAME=admin
+      - ME_CONFIG_BASICAUTH_PASSWORD=REPLACEME
+
