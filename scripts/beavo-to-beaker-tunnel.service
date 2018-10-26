@@ -1,0 +1,15 @@
+[Unit]
+Description=Beaker to Beavo SSH Tunnel for MongoDB
+After=network.target
+
+[Service]
+Restart=on-failure
+User=ubuntu
+Group=ubuntu
+Type=simple
+WorkingDirectory=/home/ubuntu
+ExecStart=/home/ubuntu/pod-mongo/scripts/tunnel_beavo_beaker.sh
+
+[install]
+WanteBy=multi-user.target
+
