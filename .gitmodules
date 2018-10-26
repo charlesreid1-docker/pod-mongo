@@ -1,9 +1,9 @@
 [submodule "d-mongodb"]
 	path = d-mongodb
-	url = ssh://git@git.charlesreid1.com:222/docker/d-mongodb.git
+	url = https://git.charlesreid1.com/docker/d-mongodb.git
 [submodule "d-mongoexpress"]
 	path = d-mongoexpress
-	url = ssh://git@git.charlesreid1.com:222/docker/d-mongoexpress.git
+	url = https://git.charlesreid1.com/docker/d-mongoexpress.git
 [submodule "mkdocs-material"]
 	path = mkdocs-material
-	url = ssh://git@git.charlesreid1.com:222/charlesreid1/mkdocs-material.git
+	url = https://git.charlesreid1.com/charlesreid1/mkdocs-material.git
