@@ -22,7 +22,7 @@ a password into the file.
 
 We start by covering how to run the docker pod from the command line.
 
-First, set the MySQL password using a sed one-liner:
+The Mongo Express web interface has a password that is set directly from the docker-compose.yml file. Use sed to set the password, or edit by hand:
 
 ```
 $ sed "s/REPLACEME/YoFooThisIsYourNewPassword/" docker-compose.fixme.yml > docker-compose.yml
