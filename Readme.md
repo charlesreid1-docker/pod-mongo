@@ -20,7 +20,7 @@ Source code on github.com: <https://github.com/charlesreid1-docker/pod-mongo>
 
 ## Running
 
-See **[Running.md](/Running.md)** for info about running this docker pod.
+See **[Running.md](docs/Running.md)** for info about running this docker pod.
 
 * Running the Docker Pod from Comand Line
 * Running the Docker Pod as a Startup Service
@@ -28,7 +28,7 @@ See **[Running.md](/Running.md)** for info about running this docker pod.
 
 ## Volumes
 
-See **[Volumes.md](/Volumes.md)** for info about data and volumes 
+See **[Volumes.md](docs/Volumes.md)** for info about data and volumes 
 used by this docker pod:
 
 * Persistent Data Volumes
@@ -40,7 +40,7 @@ Backup utilities (if there are any) are in the `utils-mongodb/` directory.
 
 ## Ports
 
-Ports setup is described in the [Ports](Ports.md) document. 
+Ports setup is described in the [Ports](docs/Ports.md) document. 
 It covers:
 
 * Ports
